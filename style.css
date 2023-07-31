@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#header, #main {
+    background-color: #1f2937;
+    display: flex;
+}
+
+#header {
+    padding: 10px 10% 0 10%;
+}
+
+#main {
+    padding: 5% 10%;
+}
+
+.header-logo {
+    width: 60%;
+    color: white;
+}
+
+.header-link, #main-text-para {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-link {
+    width: 13%;
+    text-align: end;
+}
+
+#main-text, #main-image {
+    width: 50%;
+}
+
+#main-text {
+    padding: 0 15px 0 0;
+}
+
+#main-image {
+    background-color: rgb(109, 116, 125);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#main-text-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+#main-text-button {
+    background-color: #3882f6;
+    border: 0;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+#information {
+    padding: 2.5% 20% 5% 20%;
+}
+
+#information-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+#information-subtexts {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+}
+
+.subtext-card {
+    height: 288px;
+    display: flex;
+    flex-direction: column;
+}
+
+.subtext-card:first-child {
+    margin: 0 5px 0 0;
+}
+
+.subtext-card:nth-child(2), .subtext-card:nth-child(3) {
+    margin: 0 5px;     
+}
+
+.subtext-card:last-child {
+    margin: 0 0 0 5px;
+}
+
+.div-border {
+    height: 250px;
+    border: 4px solid #3882f6;
+    border-radius: 15px;
+}
+
+.card-subtext {
+    text-align: center;
+}
+
+#quote-div {
+    background-color: #e5e7eb;
+    padding: 10% 22%;
+}
+
+#quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+#quote-author {
+    text-align: end;
+}
+
+#call-to-action {
+    margin: 5% 10%;
+    padding: 5% 10%;
+    background-color: rgb(59, 130, 246);
+    border-radius: 8px;
+    display: grid;
+    grid-template-areas: 
+        "cta-title cta-button"
+        "cta-para cta-button"   
+    ;
+}
+
+.cta-title {
+    grid-area: cta-title;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.cta-para {
+    grid-area: cta-para;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.cta-button {
+    grid-area: cta-button;
+    border: 4px solid white;
+    border-radius: 5px;
+    background: transparent;
+    width: 50%;
+    justify-self: center;
+    align-self: center;
+    padding: 5px;                                       
+}
+
+#footer {
+    padding: 2.5% 0;
+    background-color: #1f2937;
+}
+
+#footer-text {
+    color: #f9faf8;
+    text-align: center;
+}
